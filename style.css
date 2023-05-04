@@ -41,6 +41,20 @@ body{
     background: var(--bg);
 }
 
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
 .header{
     background: var(--bg);
     display: flex;
@@ -70,7 +84,7 @@ body{
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
 }
-/* 
+
 .header .items-container{
     position: absolute;
     top: 100%;
@@ -126,10 +140,10 @@ body{
     cursor: pointer;
 }
 
-.header .items-container .item .content .buy-btn:hover{
+.header .items-container .item .content .btn:hover{
     letter-spacing: .2rem;
 }
- */
+
 section{
     padding: 2rem 7%;
 }
@@ -212,6 +226,38 @@ section{
     color: #ccc;
     padding: 1rem 0;
     line-height: 1.8;
+}
+
+/* Seccion Menu Suplementos */
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.menu .box-container .box img{
+    height: 20rem;
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box:hover{
+    background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+    color: var(--black);
 }
 
 /* Responsive */
