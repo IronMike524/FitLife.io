@@ -50,7 +50,7 @@ body{
     bottom: -80px;
 }
 form{
-    height: 520px;
+    height: 600;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
@@ -85,7 +85,7 @@ label{
 }
 input{
     display: block;
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-color: rgba(255,255,255,0.07);
     border-radius: 3px;
@@ -145,35 +145,32 @@ button{
     <section class="home">
        <div class="background">
     </div>
-    <form>
-        <h3>Ingresa Aquí</h3>
-
-        <label for="Usuario">Usuario</label>
-        <input type="text" placeholder="Nombre" id="usuario">
-
+     <form> <!--method="POST" action="basedatos.php" -->
+        <h3>Registrate</h3>
+    
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre" id="nombre" name="nombre">
+    
+        <label for="apellido">Apellido</label>
+        <input type="text" placeholder="Apellido" id="apellido" name="apellido">
+    
+        <label for="celular">Celular</label>
+        <input type="text" placeholder="Celular" id="celular" name="celular">
+    
+        <label for="edad">Edad</label>
+        <input type="text" placeholder="Edad" id="edad" name="edad">
+    
+        <label for="correo">Correo electrónico</label>
+        <input type="text" placeholder="Correo electrónico" id="correo" name="correo">
+    
         <label for="contraseña">Contraseña</label>
-        <input type="password" placeholder="Contraseña" id="contrasena">
-
-        <button><a href="index.html" style="color: #080710;">Inicia Sesión</a></button>
-        <button><a href="signup.html" style="color: #080710;">Registrate</a></button>
-    </form> 
+        <input type="password" placeholder="Contraseña" id="contraseña" name="contraseña">
+    
+        <button>Registrarse</button>
+        <button><a href="login.html" style="color: #080710;">Iniciar Sesión</a></button>
+    </form>
+    
     </section>
-    <script>
-        document.getElementById("btn").addEventListener("click", function() {
-            var inputValue1 = document.getElementById("usuario").value;
-            var inputValue2 = document.getElementById("contrasena").value;
-
-            if (inputValue1 === "Miguel" && inputValue2 === "Miguel") {
-                window.location.replace("index.html");
-            } 
-            if (inputValue1 === "Samuel" && inputValue2 === "Samuel") {
-                window.location.href = "index.html";
-            } 
-            if (inputValue1 === "Jeison" && inputValue2 === "Jeison") {
-                window.location.href = "index.html";
-            } 
-        });
-    </script>
 </body>
 </html>
 
