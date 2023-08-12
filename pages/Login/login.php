@@ -34,12 +34,12 @@
                     <button>Iniciar Sesion</button>
                 </form>
 
-                <form action="" class="form-register">
+                <form action="PHP/register_user.php" method="POST" class="form-register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Ingrese Su Nombre">
-                    <input type="text" placeholder="Ingrese Su Correo">
-                    <input type="password" placeholder="Ingrese Su Contraseña">
-                    <input type="password" placeholder="Ingrese Nuevamente Su Contraseña">
+                    <input type="text" placeholder="Ingrese Su Nombre" name="Nombre">
+                    <input type="text" placeholder="Ingrese Su Correo" name="Correo">
+                    <input type="password" placeholder="Ingrese Su Contraseña" name="Contrasena">
+                    <input type="password" placeholder="Ingrese Nuevamente Su Contraseña" name="2Contra">
                     <button>Registrase</button>
                 </form>
             </div>
