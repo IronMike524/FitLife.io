@@ -1,6 +1,6 @@
 /* Estilo en general*/
 :root{
-    --main-color: #d3ad7f;
+    --main-color: #89EF78;
     --black: #13131a;
     --bg: #010103;
     --border: .1rem solid rgba(255,255,255,.3);
@@ -46,9 +46,11 @@ body{
     display: inline-block;
     padding: .8rem 3rem;
     font-size: 1.7rem;
-    color: #fff;
+    font-weight: bold;
+    color: #000000;
     background: var(--main-color);
     cursor: pointer;
+    border-radius: 10%;
 }
 
 .btn:hover{
@@ -59,25 +61,32 @@ body{
 .header{
     background: var(--bg);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 7%;
-    border-bottom: var(--border);
+    padding: 0.1rem 7%;
     position: fixed;
     top: 0%;
-    left: 0%;
-    right: 0%;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el encabezado correctamente */
     z-index: 1000;
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
 }
 
 .header .logo img{
-    height: 6rem;
+    height: 9rem;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 5rem; /* Espacio entre los elementos <a> y la imagen */
 }
 
 .header .nav a{
-    margin:0 1rem;
+    margin:0 5rem;
     font-size: 1.6rem;
-    color: #fff;
+    color: var(--main-color);
 }
 
 .header .nav a:hover{
@@ -86,64 +95,18 @@ body{
     padding-bottom: .5rem;
 }
 
-
-.header .items-container{
-    position: absolute;
-    top: 100%;
-    right: -100%;
-    height: calc(100vh - 9.5rem);
-    width: 35rem;
-    background: #fff;
-    padding: 0 1.5rem;
-}
-
-.header .items-container .item{
-    position: relative;
-    margin: 2rem 0;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.header .items-container .item .fa-times{
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    cursor: pointer;
-    color: var(--black);
-}
-
-.header .items-container .item .fa-times:hover{
+.nav a.active {
     color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
 }
 
-.header .items-container .item img{
-    height: 7rem;
-}
 
-.header .items-container .item .content h3{
-    font-size: 2rem;
-    color: var(--black);
-    padding-bottom: .5rem;
-}
-
-.header .items-container .item .content .btn{
-    font-size: 1rem;
-    color: var(--black);
-    padding-bottom: .5rem;
-}
-
-.header .items-container .item .content .btn{
-    display: inline-block;
-    padding: 0.5rem;
-    color: #fff;
-    background: var(--main-color);
-    cursor: pointer;
-}
-
-.header .items-container .item .content .btn:hover{
-    letter-spacing: .2rem;
+.division-opaca {
+    position: relative;
+    height: 2rem; /* Ajusta la altura de la división según tus preferencias */
+    background: linear-gradient(to right, transparent, #0F0F0F, transparent); /* Degradado transparente */
+    z-index: 1; /* Asegura que la división esté por encima del contenido de la sección "Sesión Principal" */
 }
 
 section{
@@ -154,7 +117,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(img/img1.jpg) no-repeat;
+    background: url(../img/img1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -170,11 +133,22 @@ section{
 }
 
 .home .content p{
-    font-size: 2rem;
-    font-weight: lighter;
+    font-size: 3rem;
+    font-weight: 900;
     line-height: 1.8;
-    padding: 1rem 0 ;
+    padding: 2rem 0 ;
     color: #eee;
+}
+
+.home .content .btn-init{
+        display: inline-block;
+        padding: .9rem 6rem;
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: #000000;
+        background: var(--main-color);
+        cursor: pointer;
+        border-radius: 15%;
 }
 
 .content .content li{
@@ -198,10 +172,15 @@ section{
     /*text-transform: uppercase;*/
 }
 
+.about{
+    background: url(../img/pesas-ejercicio-mancuernas-hierro-placas-extra\ 1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .about .row{
     display: flex;
     align-items: center;
-    background: var(--black);
     flex-wrap: wrap;
 }
 

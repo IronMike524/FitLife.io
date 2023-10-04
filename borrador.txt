@@ -1,0 +1,107 @@
+<!--Boton Para El Responsive-->
+	<!-- <div class="icon">
+		<div class="fas fa-bars" id="menu-btn"></div>
+	</div> -->
+	<!-- 
+	<div class="items-container">
+		<h1>SUPLEMENTOS</h1>
+		<div class="item">
+			<span class="fas fa-times"></span>
+			<img src="img/img1.jpg" alt="">
+			<div class="content">
+				<h3>Smart Gainer</h3>
+				<div class="buy"><a href="#" class="buy-btn">Comprar</a></div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="fas fa-times"></span>
+			<img src="img/img2.jpg" alt="">
+			<div class="content">
+				<h3>Megaplex Creatine</h3>
+				<div class="buy"><a href="#" class="buy-btn">Comprar</a></div>
+			</div>
+		</div>
+		<div class="item">
+			<span class="fas fa-times"></span>
+			<img src="img/img3.jpg" alt="">
+			<div class="content">
+				<h3>CreaStack</h3>
+				<div class="buy"><a href="#" class="buy-btn">Comprar</a></div>
+			</div>
+		</div>
+	</div>
+	 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 .header .items-container{
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    height: calc(100vh - 9.5rem);
+    width: 35rem;
+    background: #fff;
+    padding: 0 1.5rem;
+}
+
+.header .items-container .item{
+    position: relative;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header .items-container .item .fa-times{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+}
+
+.header .items-container .item .fa-times:hover{
+    color: var(--main-color);
+}
+
+.header .items-container .item img{
+    height: 7rem;
+}
+
+.header .items-container .item .content h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+
+.header .items-container .item .content .btn{
+    font-size: 1rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+
+.header .items-container .item .content .btn{
+    display: inline-block;
+    padding: 0.5rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.header .items-container .item .content .btn:hover{
+    letter-spacing: .2rem;
+}
