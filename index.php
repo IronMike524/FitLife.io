@@ -27,55 +27,54 @@
 <section class="about" id="about">
 	<div class="row">
 		<div class="image-us">
-			<img src="img/img2.jpg" alt="">
+			<img src="img/feliz-morena-fitness-mujer-toalla-sosteniendo-brazo-cadera 1.png" alt="">
 		</div>
 
 		<div class="content">
-			<h3>¿Porque debemos entrenar?</h3>
+			<h3>¿Por qué deberías mejorar tu estilo de vida?</h3>
 			<ul class="content">
-				<li>Mejora de la salud física: El entrenamiento regular puede mejorar la salud física de muchas maneras, como fortaleciendo los músculos y huesos, mejorando la circulación sanguínea, 
-				reduciendo el riesgo de enfermedades cardíacas y diabetes, y fortaleciendo el sistema inmunológico.</li><br>
-				<li>Control del peso: El entrenamiento regular también puede ayudar a controlar el peso corporal al quemar calorías y aumentar el metabolismo.</li><br>
-				<li>Reducción del estrés: El ejercicio puede reducir el estrés y mejorar el estado de ánimo, 
-					gracias a la liberación de endorfinas que ocurre durante la actividad física.</li><br>
-				<li>Mejora de la autoestima: El entrenamiento regular puede mejorar la autoestima y la confianza en uno mismo, 
-				al lograr objetivos de fitness y ver mejoras en el físico.</li><br>
-				<li>Prevención de lesiones: El entrenamiento regular puede ayudar a prevenir lesiones 
-				al fortalecer los músculos y mejorar la postura y el equilibrio.</li>
-				</ul>
+				<li>Te vuelves más sano</li><br>
+				<li>Equilibras tu peso</li><br>
+				<li>Reduces el estrés</li><br>
+				<li>Fortaleces tu cuerpo</li><br>
+				<li>Aumentas tu autoestima</li>
+				<li>Previenes lesiones</li>
+			</ul>
+			<a href="pages/init.php" class="btn-about">Quiero Alimentarme Mejor</a>
 		</div>
 	</div>
 </section>
 <div class="division-opaca"></div>
+
 <!-- Seccion De Suplementos -->
-<section class="menu" id="menu">
-	<h1 class="head"> Mejores <span> Suplementos </span></h1>
-	<div class="box-container">
-		<div class="box">
-			<img src="img/Smart.jpg" alt="">
-			<h3>Smart Gainer ProScience</h3>
-			<a href="#" class="btn">Consiguelo!!</a>
-		</div>
-
-		<div class="box">
-			<img src="img/Creastack.jpg" alt="">
-			<h3>CreaStack</h3>
-			<a href="#" class="btn">Consiguelo!!</a>
-		</div>
-
-		<div class="box">
-			<img src="img/Bipro.jpg" alt="">
-			<h3>Smart Gainer ProScience</h3>
-			<a href="#" class="btn">Consiguelo!!</a>
-		</div>
-
-		<div class="box">
-			<img src="img/Megaplex.jpg" alt="">
-			<h3>Smart Gainer ProScience</h3>
-			<a href="#" class="btn">Consiguelo!!</a>
-		</div>
-	</div>
+<section class="feeding" id="feeding">
+    <div class="row">
+        <div class="content">
+            <ul class="content">
+                    <h3>Mitos</h3>
+                    <ul class="sub-list">
+                        <li>Las dietas extremadamente bajas en calorías son la clave para perder peso rápidamente.</li>
+                        <li>Los carbohidratos son malos y deben evitarse por completo.</li>
+                        <li>Comer solo proteínas te hará ganar músculo de manera instantánea.</li>
+                    </ul>
+			</ul>
+			<ul class="content">
+                    <h3>Hechos</h3>
+                    <ul class="sub-list">
+                        <li>La pérdida de peso sostenible requiere un equilibrio entre calorías consumidas y gastadas.</li>
+                        <li>Los carbohidratos son una fuente importante de energía, elige opciones integrales y moderadas.</li>
+                        <li>La proteína es esencial para la reparación muscular, pero una dieta equilibrada es clave para el desarrollo muscular.</li>
+                    </ul>
+            </ul>
+				<a href="pages/init.php" class="btn-feed">Quiero Alimentarme Mejor</a>
+        </div>
+    </div>
 </section>
+<!-- Fin -->
+
+
+
+
 <!-- Fin -->
 
 <section class="contact" id="contact">

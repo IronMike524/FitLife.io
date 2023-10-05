@@ -184,12 +184,12 @@ section{
     flex-wrap: wrap;
 }
 
-.about .row .image{
-    flex: 1 1 45rem;
+.about .row .image-us{
+    flex: 1 1 35rem;
 }
 
-.about .row .image img{
-    width: 100%;
+.about .row .image-us img{
+    width: 70%;
 }
 
 .about .row .content{
@@ -199,46 +199,78 @@ section{
 
 .about .row .content h3{
     font-size: 3rem;
-    color: #fff;
+    color: var(--main-color);
+    font-weight: bold;
 }
 
-.about .row .content p{
+.about .row .content li{
     font-size: 1.6rem;
     color: #ccc;
-    padding: 1rem 0;
-    line-height: 1.8;
+    padding: 0.5rem 0;
+    font-weight: bold;
 }
 
-/* Seccion Menu Suplementos */
+.about .row .content .btn-about{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #000000;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 12%;
+}
+/* Seccion feeding Suplementos */
 
-.menu .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+.feeding {
+    background: url(../img/buda-plato-plato-filete-pollo-arroz-col-lombarda-zanahoria-ensalada-lechuga-fresca-sesamo\ 1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.menu .box-container .box{
-    padding: 5rem;
-    text-align: center;
-    border: var(--border);
+.feeding .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.menu .box-container .box img{
-    height: 20rem;
+.feeding .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
 }
 
-.menu .box-container .box h3{
-    color: #fff;
-    font-size: 2rem;
-    padding: 1rem 0;
+.feeding .row .content h3 {
+    font-size: 3rem;
+    color: var(--main-color);
+    transform: rotate(-90deg);
+    transform-origin: left center;
+    white-space: nowrap;
+    margin-right: 1rem;
 }
 
-.menu .box-container .box:hover{
-    background: #fff;
+.feeding .row .content ul.sub-list {
+    list-style-type: disc; /* Utiliza viñetas en lugar de viñetas por defecto */
 }
 
-.menu .box-container .box:hover > *{
+.feeding .row .content ul.sub-list li {
+    font-size: 1.6rem;
     color: var(--black);
+    padding: 0.5rem 0; /* Ajusta el espaciado entre los elementos de la lista */
+    line-height: 1.8;
+    margin-left: 1.5rem; /* Espacio entre el título y los elementos de la lista */
+}
+
+.feeding .row .content .btn-feed{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #000000;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 12%;
 }
 
 /* Responsive */
@@ -253,7 +285,7 @@ section{
     color: var(--main-color);
 }
 
-#menu-btn{
+#feeding-btn{
     display: none;
 }
 
@@ -382,7 +414,7 @@ section{
 
 @media (max-width:768px){
    
-    #menu-btn{
+    #feeding-btn{
         display: inline-block;
     }
 

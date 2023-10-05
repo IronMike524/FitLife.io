@@ -32,7 +32,36 @@
 	</div>
 	 -->
 
+<!-- Seccion De Suplementos -->
+<section class="menu" id="menu">
+	<h1 class="head"> Mejores <span> Suplementos </span></h1>
+	<div class="box-container">
+		<div class="box">
+			<img src="img/Smart.jpg" alt="">
+			<h3>Smart Gainer ProScience</h3>
+			<a href="#" class="btn">Consiguelo!!</a>
+		</div>
 
+		<div class="box">
+			<img src="img/Creastack.jpg" alt="">
+			<h3>CreaStack</h3>
+			<a href="#" class="btn">Consiguelo!!</a>
+		</div>
+
+		<div class="box">
+			<img src="img/Bipro.jpg" alt="">
+			<h3>Smart Gainer ProScience</h3>
+			<a href="#" class="btn">Consiguelo!!</a>
+		</div>
+
+		<div class="box">
+			<img src="img/Megaplex.jpg" alt="">
+			<h3>Smart Gainer ProScience</h3>
+			<a href="#" class="btn">Consiguelo!!</a>
+		</div>
+	</div>
+</section>
+<!-- Fin -->
 
 
 
