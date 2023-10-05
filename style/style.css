@@ -432,6 +432,7 @@ section{
 /* Estilo Imagen SVG */
 .body-click{
     text-align: center;
+    margin-top: 100px;
 }
 
 .body-click h1{
