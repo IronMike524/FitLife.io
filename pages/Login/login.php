@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <section class="login-register">
 
         <div class="container">
             <div class="box-back">
@@ -45,7 +45,22 @@
             </div>
         </div>
 
-    </main>
+</section>
+
+    <div class="division-opaca"></div>
+
+    <section class="body-click" id="body-click">
+	<h1> DESCARGA NUESTRA APLICACION</h1>
+	<p>Descarga <span>FitLife</span> hoy mismo y da el primer paso hacia una versión más saludable y feliz de ti mismo. ¡Tu nuevo estilo de vida te está esperando!"</p>
+		<div class="svg">
+			<img src="../../img/Android Large - 6.png" alt="">
+			</div>
+</div>
+</section>
+    <div class="division-opaca"></div>
+    <?php
+        include('../../includes/footer.html');
+    ?>
     <script src="script.js"></script>
 </body>
 </html>

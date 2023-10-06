@@ -1,3 +1,10 @@
+:root{
+    --main-color: #89EF78;
+    --black: #13131a;
+    --bg: #FFFFFF;
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,19 +13,44 @@
     font-family: sans-serif;
 }
 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 12rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+.division-opaca {
+    position: relative;
+    height: 2rem; /* Ajusta la altura de la división según tus preferencias */
+    background: linear-gradient(to right, transparent, #0F0F0F, transparent); /* Degradado transparente */
+    z-index: 1; /* Asegura que la división esté por encima del contenido de la sección "Sesión Principal" */
+}
+
 body{
+    background: var(--bg);
+}
+
+.login-register{
     background-image: url(../../img/BackgroundLogin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-}
-
-main{
     width: 100%;
-    padding: 20px;
+    padding: 110px;
     margin: auto;
-    margin-top: 100px; 
 }
 
 .container{
@@ -34,12 +66,12 @@ main{
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 128, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .box-back div{
     margin: 100px 40px;
-    color: white;
+    color: var(--black);
     transition: all 500ms;
 }
 
@@ -49,16 +81,16 @@ main{
 }
 
 .box-back div h3{
-    font-weight: 400;
+    font-weight: bold;
     font-size: 26px;
 }
 
 .box-back button{
     padding: 10px 40px;
-    border: 2px solid #fff;
+    border: 2px solid #89EF78;
     background: transparent;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     cursor: pointer;
     color: white;
     outline: none;
@@ -66,8 +98,8 @@ main{
 }
 
 .box-back button:hover{
-    background: #fff;
-    color: #46A2FD;
+    background: #89EF78;
+    color: black;
 }
 
 /* Formularios */
@@ -87,7 +119,7 @@ main{
 .container-login-register form{
     width: 100%;
     padding: 80px 20px;
-    background: #fff;
+    background: #ffffff;
     position: absolute;
     border-radius: 20px;
 }
@@ -100,7 +132,7 @@ main{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46A2FD;
+    color: #89EF78;
 }
 
 .container-login-register form input{
@@ -118,8 +150,8 @@ main{
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #46A2FD;
-    color: white;
+    background: #89EF78;
+    color: black;
     cursor: pointer;
     outline: none;
 }
@@ -131,4 +163,111 @@ main{
 
 .form-register{
     display: none;
+}
+
+/* Footer */
+.our-creator .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.our-creator .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.our-creator .box-container .box .our{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.our-creator .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.our-creator .box-container .box .shar a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+.our-creator .box-container .box .shar a:hover{
+    background-color: var(--main-color);
+}
+
+.footer{
+    background: var(--black);
+    text-align: center;
+}
+
+.footer .shar{
+    padding: 1rem 0;
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+} 
+
+.head{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.head span{
+    color: var(--main-color);
+    /*text-transform: uppercase;*/
+}
+/* Fin Footer */
+
+/* Estilo Imagen SVG */
+.body-click{
+    text-align: center;
+}
+
+.body-click h1{
+    color: var(--main-color);
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.body-click p{
+    color: black;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+
+a :hover{
+    fill: var(--main-color);
+}
+
+.svg{
+    width: 40%;
+    margin: auto;
+}
+
+.svg path{
+    fill:#EEEEEE;
+    stroke:#000000;
+    transition: fill 0.3s;
+}
+
+a :hover{
+    fill: var(--main-color);
 }

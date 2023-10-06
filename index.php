@@ -19,7 +19,7 @@
 	<div class="content">
 		<!-- <h3>Bienvenidos A FitLife</h3> -->
 		<p>El viaje hacia una vida más saludable comienza con pequeñas elecciones todos los días.</p>
-		<a href="pages/init.php" class="btn-init">Empieza YA</a>
+		<a href="pages/Login/login.php" class="btn-init">Empieza YA</a>
 	</section>
 <!-- Fin  -->
 <div class="division-opaca"></div>
