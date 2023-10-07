@@ -49,18 +49,25 @@
 
     <div class="division-opaca"></div>
 
-    <section class="body-click" id="body-click">
-	<h1> DESCARGA NUESTRA APLICACION</h1>
-	<p>Descarga <span>FitLife</span> hoy mismo y da el primer paso hacia una versión más saludable y feliz de ti mismo. ¡Tu nuevo estilo de vida te está esperando!"</p>
-		<div class="svg">
+    <section class="application">
+    <div class="app-text">
+        <h4>Descarga Nuestra Aplicación</h4>
+        <h1>FITLIFE</h1>
+        <p>Descarga hoy mismo y da el primer paso hacia una versión más saludable y feliz de ti mismo. Tu nuevo estilo de vida te está esperando.</p>
+        <a href="#">¡Descárgala Ahora!</a>
+    </div>
+	
+		<div class="app">
 			<img src="../../img/Android Large - 6.png" alt="">
 			</div>
-</div>
 </section>
+
     <div class="division-opaca"></div>
     <?php
         include('../../includes/footer.html');
     ?>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
 </body>
 </html>

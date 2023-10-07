@@ -23,3 +23,13 @@ function register() {
     box_back_register.style.opacity = "0";
     box_back_login.style.opacity = "1"
 }
+
+const sr = ScrollReveal ({
+    distance: '65px',
+    duration: 2600,
+    delay: 450,
+    reset: true
+});
+
+sr.reveal('.app-text',{delay:200, origin:'top'});
+sr.reveal('.app',{delay:450, origin:'top'});
