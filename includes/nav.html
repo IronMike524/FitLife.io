@@ -1,16 +1,57 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fit Page</title>
-    <link rel="shortcut icon" href="img/Logo FL.png" />
-    <link rel="stylesheet" href="style/style.css">
 	<!-- Link Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-</head>
-<body>
+	<style>
+		:root{
+			--main-color: #89EF78;
+			--black: #13131a;
+			--bg: #010103;
+			--border: .1rem solid rgba(255,255,255,.3);
+		
+			--primary-color: #CC324B;
+			--secundary-color: #A30127;
+			--third-color: #721132;
+			--four-color: #1B1925;
+		}
+
+		.header{
+			background: var(--bg);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0.1rem 7%;
+			position: fixed;
+			top: 0%;
+			left: 50%;
+			transform: translateX(-50%); /* Centra el encabezado correctamente */
+			z-index: 1000;
+			width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
+		}
+		
+		.header .logo img{
+			height: 9rem;
+		}
+		
+		.header-container{
+			display: flex;
+			align-items: center;
+			gap: 5rem; /* Espacio entre los elementos <a> y la imagen */
+		}
+		
+		.header .nav a{
+			margin:0 6rem;
+			font-size: 1.8rem;
+			color: var(--primary-color);
+			font-weight: bold;
+		}
+		
+		.header .nav a:hover{
+			color: white;
+			border-bottom: .1rem solid var(--secundary-color);
+			padding-bottom: .5rem;
+		}
+		
+	</style>
 <header class="header">
 	<div class="header-container">
 	<nav class="nav">
@@ -22,7 +63,7 @@
 		</a>
 	<nav class="nav">	
 		<a href="#menu" class="">Alimentacion</a>
-		<a href="#contact" class="">Informacion</a>
+		<a href="informacion.php" class="">Informacion</a>
 		<!-- <a href="pages/Login/login.php" class="link_a"><i class="fa-solid fa-arrow-right"></i> Ingresar</a> -->
 	</nav>
 </div>

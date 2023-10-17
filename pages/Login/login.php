@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="../../img/Logo FL.png">
 </head>
 <body>
     <section class="login-register">
@@ -52,13 +53,13 @@
     <section class="application">
     <div class="app-text">
         <h4>Descarga Nuestra Aplicación</h4>
-        <h1>FITLIFE</h1>
+        <h1><span>FIT</span>LIFE</h1>
         <p>Descarga hoy mismo y da el primer paso hacia una versión más saludable y feliz de ti mismo. Tu nuevo estilo de vida te está esperando.</p>
         <a href="#">¡Descárgala Ahora!</a>
     </div>
 	
 		<div class="app">
-			<img src="../../img/Android Large - 6.png" alt="">
+			<img src="../../img/Application.png" alt="">
 			</div>
 </section>
 

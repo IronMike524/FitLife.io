@@ -1,39 +1,116 @@
+<!-- Link Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+<style>
+/* Footer */
+.footer{
+    bottom: 0%;
+    width: 100%;
+    background: #111;
+    color: #fff;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.box .content .our{
+    font-size: 15px;
+}
+
+.box .content .our span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a{
+    padding: 0 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+</style>
 <!-- Pie de pagina -->
 <section class="footer">
-	<div class="our-creator">
-	<h1 class="head">¿Quienes Somos?</h1>
-	<div class="box-container">
-		<div class="box">
-			<img src="img/Jeison.jpeg" alt="" class="our">
-			<h3>Jeison Andres Martinez Lopez</h3>
-			<div class="shar">
-				<a href="" class="fab fa-instagram"></a>
-				<a href="" class="fab fa-facebook-f"></a>
-				<a href="" class="fab fa-twitter"></a>
+	<div class="main-content">
+		<div class="left box">
+			<h2>Sobre Nosotros</h2>
+			<div class="content">
+				<p>En FitLife, estamos comprometidos con tu bienestar y salud. Nuestra misión es proporcionarte las herramientas y la orientación necesaria para que alcances tus metas de acondicionamiento físico y bienestar. Con información confiable, entrenamientos personalizados y una comunidad apasionada, te apoyamos en tu viaje hacia un estilo de vida más saludable. ¡Únete a nuestra comunidad hoy y descubre un camino hacia un tú más saludable y activo!"</p>
+				<div class="social">
+					<a href="#"><span class="fa-brands fa-facebook"></span></a>
+					<a href="#"><span class="fa-brands fa-twitter"></span></a>
+					<a href="#"><span class="fa-brands fa-instagram"></span></a>
+					<a href="#"><span class="fa-brands fa-youtube"></span></a>
+				</div>
 			</div>
 		</div>
-
-		<div class="box">
-			<img src="img/MiguelXD.jpg" alt="" class="our">
-			<h3>Miguel Angel Velez Rua</h3>
-			<div class="shar">
-				<a href="" class="fab fa-instagram"></a>
-				<a href="" class="fab fa-facebook-f"></a>
-				<a href="" class="fab fa-twitter"></a>
+		<div class="center box">
+			<h2>Quienes Somos</h2>
+			<div class="content">
+				<div class="our">
+					<span class="fa-solid fa-user"></span>
+					<span class="text">Jeison Andres Martinez Lopez</span>
+				</div>
+				<div class="our">
+					<span class="fa-solid fa-user"></span>
+					<span class="text">Miguel Angel Velez Rua</span>
+				</div>
+				<div class="our">
+					<span class="fa-solid fa-user"></span>
+					<span class="text">Samuel Alarcon Balvin</span>
+				</div>
 			</div>
 		</div>
-
-		<div class="box">
-			<img src="img/SamuelXD.jpg" alt="" class="our">
-			<h3>Samuel Balvin Alarcon</h3>
-			<div class="shar">
-				<a href="" class="fab fa-instagram"></a>
-				<a href="" class="fab fa-facebook-f"></a>
-				<a href="" class="fab fa-twitter"></a>
+		<div class="right box">
+			<h2>Contacta Con Nosotros</h2>
+			<div class="cont">
+				<form action="">
+					<div class="email">
+						<div class="text">Email *</div>
+						<input type="text" required>
+					</div>
+					<div class="msg">
+						<div class="text">Mensaje *</div>
+						<textarea cols="25" rows="2" required></textarea>
+					</div>
+					<div class="btn-contact">
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
-</div>
-
-<div class="credit">Creado Por Nosotros | Todos los derechos reservados </div>
 </section>

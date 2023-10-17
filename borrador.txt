@@ -64,7 +64,31 @@
 <!-- Fin -->
 
 
+<section class="contact" id="contact">
+	<h1 class="head"><span>Contacta</span> Con nosotros</h1>
+	<div class="row">
+		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.70749736785!2d-75.55910897519526!3d6.306115744229818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f3e26397079%3A0x5a5f7af9067a2dd9!2sUniminuto!5e0!3m2!1sen!2sco!4v1683210785237!5m2!1sen!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<form action="">
+			<h3>Ponerse en contacto</h3>
+			<div class="inputBox">
+				<span class="fas fa-user"></span>
+				<input type="text" placeholder="Nombre De Usuario">
+			</div>
 
+			<div class="inputBox">
+				<span class="fas fa-envelope"></span>
+				<input type="email" placeholder="Correo Electronico">
+			</div>
+
+			<div class="inputBox">
+				<span class="fas fa-phone"></span>
+				<input type="number" placeholder="Telefono / Celular">
+			</div>
+
+			<input type="submit" class="btn" value="Contactanos Ahora!!">
+		</form>
+	</div>
+</section>
 
 
 
@@ -133,4 +157,55 @@
 
 .header .items-container .item .content .btn:hover{
     letter-spacing: .2rem;
+}
+
+/* Contactanos */
+
+.contact .row{
+    display: flex;
+    background: var(--black);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--black);
+    border: var(--border);
+}
+
+.contact .row form .inputBox span{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
 }
