@@ -324,6 +324,14 @@ a :hover{
     fill: var(--main-color);
 }
 
+/* Sesion Ejercicios */
+
+.exercises{
+    display: none;
+    color: #EEEEEE;
+}
+
+
 /* Codigo CSS - Informacion.php */
 /* Sesion Principal */
 .home-info{

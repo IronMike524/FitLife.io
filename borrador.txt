@@ -209,3 +209,162 @@
     text-transform: none;
     background: none;
 }
+
+
+
+
+    <!-- <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <img src="../img/Logo FL.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>Espalda</span>
+                        <h3>Jalon al pecho</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae velit placeat debitis eligendi corporis. Velit quos dolorum quas accusantium et assumenda? Libero nisi, veniam magni eveniet ut nulla. Beatae?</p>
+                    </div>
+                    <div class="producto-img">
+                        <img src="img-training/Espalda/JalonAlPecho.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Agregar A Mi Entreno</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <img src="../img/Logo FL.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>Espalda</span>
+                        <h3>Jalon al pecho</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae velit placeat debitis eligendi corporis. Velit quos dolorum quas accusantium et assumenda? Libero nisi, veniam magni eveniet ut nulla. Beatae?</p>
+                    </div>
+                    <div class="producto-img">
+                        <img src="img-training/Espalda/JalonRemo.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Agregar A Mi Entreno</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <img src="../img/Logo FL.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>Espalda</span>
+                        <h3>Jalon al pecho</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae velit placeat debitis eligendi corporis. Velit quos dolorum quas accusantium et assumenda? Libero nisi, veniam magni eveniet ut nulla. Beatae?</p>
+                    </div>
+                    <div class="producto-img">
+                        <img src="img-training/Espalda/RemoConBarra.jpg" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">Agregar A Mi Entreno</a>
+            </div>
+        </div>
+    </div> -->
+
+<!-- Script Swiper JS para el carrusel de los ejercicios 
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 1,
+        loop: true,
+        coverflowEffect: {
+            depth: 500,
+            modifer:1,
+            slidesShadows:true,
+            rotate: 0,
+            stretch: 0
+        }
+    })
+</script> -->
+
+/* .swiper{
+    width: 100%;
+    padding: 150px 0 50px 0;
+}
+
+.swiper-slide{
+    width: 300px;
+    height: 500px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i{
+    font-size: 20px;
+    color: #FFB900;
+}
+
+.icons img{
+    width: 120px;
+}
+
+.product-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt{
+    flex-basis: 50%;
+}
+
+.product-txt span{
+    font-size: 25px;
+    color: #FFB900;
+    font-weight: bold;
+}
+
+.product-txt h3{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.product-txt p{
+    font-size: 14px;
+    color: #C4C4C4;
+}
+
+.producto-img{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.producto-img img{
+    width: 120px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid #FFB900;
+    border-radius: 25px;
+    color: #FFB900;
+    text-decoration: none;
+    margin-top: 50px;
+} */
