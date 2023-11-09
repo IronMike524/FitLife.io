@@ -1,0 +1,200 @@
+:root{
+    --main-color: #89EF78;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255,255,255,.3);
+
+    --primary-color: #CC324B;
+    --secundary-color: #A30127;
+    --third-color: #721132;
+    --four-color: #1B1925;
+}
+
+.home-info{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/Bg-Calculadoras.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1920px; /* Limit the width of the image to 1920px */
+
+}
+
+.home-info .content-info{
+    max-width: 60rem;
+}
+
+.home-info .content-info h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 45px;
+    -webkit-text-stroke: 2px black;
+}
+
+
+.home-info .content-info span {
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.home-info .content-info span{
+    background: linear-gradient(180deg, #FFFFFF 30%, #CC324B 30%);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 2px black; /* Añadir un borde negro de 2px al texto */
+}
+
+.home-info .content-info p{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #eee;
+}
+
+/* Estilo de la barra lateral */
+.nav-calculator {
+    position: relative;
+    margin: 1px auto 0;
+    width: 90%;
+    height: 60px;
+    background: var(--secundary-color);
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-calculator a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-calculator .animation{
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: var(--four-color);
+    width: 100px;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+.nav-calculator a:nth-child(1){
+    width: 100px;
+}
+
+.nav-calculator .start-home, a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+
+.nav-calculator a:nth-child(2){
+    width: 110px;
+}
+
+.nav-calculator .start-calculator1, a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 260px;
+}
+
+.nav-calculator a:nth-child(3){
+    width: 100px;
+}
+
+.nav-calculator .start-calculator2, a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 530px;
+}
+
+.nav-calculator a:nth-child(4){
+    width: 160px;
+}
+
+.nav-calculator .start-calculator3, a:nth-child(4):hover~.animation{
+    width: 170px;
+    left: 780px;
+}
+
+.nav-calculator a:nth-child(5){
+    width: 120px;
+}
+
+.nav-calculator .start-calculator4, a:nth-child(5):hover~.animation{
+    width: 120px;
+    left: 1100px;
+}
+/* Estilo de contenido */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Agrega estilos a las calculadoras */
+.calculator {
+    display: none;
+    padding: 2rem 7%;
+}
+
+.calculator h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.calculator input[type="text"],
+.calculator select {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background: transparent;
+    border: var(--border);
+    color: #fff;
+}
+
+.calculator select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #fff;
+}
+
+.calculator select option {
+    color: #000;
+}
+
+
+.calculator button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff;
+    background: var(--third-color);
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+.calculator button:hover {
+    background: var(--four-color);
+    color: var(--primary-color);
+    transition: all 0.5s;
+}
+
+.calculator p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 1rem;
+}

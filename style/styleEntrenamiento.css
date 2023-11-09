@@ -1,0 +1,54 @@
+:root{
+    --main-color: #89EF78;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255,255,255,.3);
+
+    --primary-color: #CC324B;
+    --secundary-color: #A30127;
+    --third-color: #721132;
+    --four-color: #1B1925;
+}
+
+/* Codigo CSS - Entrenamiento.php */
+/* Estilo Imagen SVG */
+.body-click{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.body-click h1{
+    color: var(--secundary-color);
+    font-size: 3rem;
+}
+
+.body-click p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.svg{
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.svg path{
+    fill:#EEEEEE;
+    stroke:#000000;
+    transition: fill 0.3s;
+}
+
+a :hover{
+    fill: var(--primary-color);
+}
+
+/* Sesion Ejercicios */
+
+.exercises{
+    display: none;
+    color: #EEEEEE;
+}
+
+
+
